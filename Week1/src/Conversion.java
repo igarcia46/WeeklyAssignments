@@ -1,4 +1,4 @@
-public class Main {
+public class Conversion {
     public static void main(String[] args) {
         // making sure table headers are aligned properly
         System.out.printf("%-10s%-10s    %-10s%-10s%n",
@@ -12,11 +12,19 @@ public class Main {
             System.out.printf(
                     "%-10.1f%-10.3f    %-10.1f%-10.3f%n",
                     (double) feet,
-                    Conversion.footToMeter(feet),
+                    footToMeter(feet),
                     meters,
-                    Conversion.meterToFoot(meters)
+                    meterToFoot(meters)
             );
             meters += 5;
         }
+    }
+
+    public static double footToMeter(double foot) {
+        return 0.305 * foot;
+    }
+
+    public static double meterToFoot(double meter) {
+        return meter / 0.305;
     }
 }
