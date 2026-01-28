@@ -1,4 +1,4 @@
-public class Exercise12_7 {
+public class Exercise12_9 {
     public static void main(String[] args) {
         // expect exception to be thrown on "1021" and "10a01"
         String[] binaryStrings = {"1011", "1021", "0000", "111111", "10a01"};
