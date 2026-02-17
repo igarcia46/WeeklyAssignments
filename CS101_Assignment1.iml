@@ -7,8 +7,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Week2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week5/exercise14_1/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week5/exercise14_1/src/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/Week5/exercise15_7/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week5/exercise16_17/src/main" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
