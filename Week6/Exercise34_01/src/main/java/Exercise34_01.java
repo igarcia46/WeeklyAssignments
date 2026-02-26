@@ -25,9 +25,10 @@ public class Exercise34_01 extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-
+        // connect right away
         connectDB();
 
+        // main screen
         GridPane grid = new GridPane();
         grid.setHgap(10);
         grid.setVgap(10);
@@ -44,11 +45,13 @@ public class Exercise34_01 extends Application {
         grid.addRow(r++, new Label("Phone"), tfPhone);
         grid.addRow(r++, new Label("Email"), tfEmail);
 
+        // buttons
         Button btnView = new Button("View");
         Button btnInsert = new Button("Insert");
         Button btnUpdate = new Button("Update");
         Button btnClear = new Button("Clear");
 
+        // events
         btnView.setOnAction(e -> view());
         btnInsert.setOnAction(e -> insert());
         btnUpdate.setOnAction(e -> update());
