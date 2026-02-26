@@ -1,31 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+<module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Week1/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week3" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week4" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week5/exercise14_1/src/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week5/exercise14_1/src/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/Week5/exercise15_7/src/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week5/exercise16_17/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/sqlite-jdbc-3.45.1.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:17.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:17.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:17.0.2" level="project" />
@@ -34,6 +17,6 @@
     <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:17.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.xerial:sqlite-jdbc:3.45.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:2.0.12" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.36" level="project" />
   </component>
 </module>
